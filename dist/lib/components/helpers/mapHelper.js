@@ -1,12 +1,7 @@
 'use strict'
-var __importDefault =
-  (this && this.__importDefault) ||
-  function(mod) {
-    return mod && mod.__esModule ? mod : { default: mod }
-  }
 Object.defineProperty(exports, '__esModule', { value: true })
 exports.generatePixelHeading = exports.generateLinesFromArrayOfPosition = void 0
-var azure_maps_control_1 = __importDefault(require('azure-maps-control'))
+var azure_maps_control_1 = require('azure-maps-control')
 var LineString = azure_maps_control_1.default.data.LineString
 var Pixel = azure_maps_control_1.default.Pixel
 exports.generateLinesFromArrayOfPosition = function(coordinates) {

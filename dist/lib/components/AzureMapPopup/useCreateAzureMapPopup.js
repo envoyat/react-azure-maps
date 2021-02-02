@@ -13,16 +13,11 @@ var __assign =
       }
     return __assign.apply(this, arguments)
   }
-var __importDefault =
-  (this && this.__importDefault) ||
-  function(mod) {
-    return mod && mod.__esModule ? mod : { default: mod }
-  }
 Object.defineProperty(exports, '__esModule', { value: true })
 exports.useCreatePopup = void 0
 var react_1 = require('react')
 var server_1 = require('react-dom/server')
-var azure_maps_control_1 = __importDefault(require('azure-maps-control'))
+var azure_maps_control_1 = require('azure-maps-control')
 var AzureMapContext_1 = require('../../contexts/AzureMapContext')
 exports.useCreatePopup = function(_a) {
   var options = _a.options,

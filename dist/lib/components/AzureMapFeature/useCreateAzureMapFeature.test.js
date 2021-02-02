@@ -1,11 +1,6 @@
 'use strict'
-var __importDefault =
-  (this && this.__importDefault) ||
-  function(mod) {
-    return mod && mod.__esModule ? mod : { default: mod }
-  }
 Object.defineProperty(exports, '__esModule', { value: true })
-var azure_maps_control_1 = __importDefault(require('azure-maps-control'))
+var azure_maps_control_1 = require('azure-maps-control')
 var useCreateAzureMapFeature_1 = require('./useCreateAzureMapFeature')
 var fakeCoordinate = new azure_maps_control_1.default.data.Position(10, 10)
 var fakeCoordinates = [

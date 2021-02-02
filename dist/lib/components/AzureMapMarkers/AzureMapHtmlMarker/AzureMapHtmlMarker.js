@@ -13,15 +13,10 @@ var __assign =
       }
     return __assign.apply(this, arguments)
   }
-var __importDefault =
-  (this && this.__importDefault) ||
-  function(mod) {
-    return mod && mod.__esModule ? mod : { default: mod }
-  }
 Object.defineProperty(exports, '__esModule', { value: true })
 var react_1 = require('react')
 var server_1 = require('react-dom/server')
-var azure_maps_control_1 = __importDefault(require('azure-maps-control'))
+var azure_maps_control_1 = require('azure-maps-control')
 var AzureMapContext_1 = require('../../../contexts/AzureMapContext')
 var useCheckRef_1 = require('../../../hooks/useCheckRef')
 var AzureMapHtmlMarker = react_1.memo(function(_a) {

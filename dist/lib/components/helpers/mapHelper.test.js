@@ -1,12 +1,7 @@
 'use strict'
-var __importDefault =
-  (this && this.__importDefault) ||
-  function(mod) {
-    return mod && mod.__esModule ? mod : { default: mod }
-  }
 Object.defineProperty(exports, '__esModule', { value: true })
 var mapHelper_1 = require('./mapHelper')
-var azure_maps_control_1 = __importDefault(require('azure-maps-control'))
+var azure_maps_control_1 = require('azure-maps-control')
 azure_maps_control_1.default.Pixel.getHeading = jest.fn(function() {
   return 0
 })

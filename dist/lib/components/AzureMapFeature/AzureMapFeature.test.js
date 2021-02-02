@@ -13,20 +13,15 @@ var __assign =
       }
     return __assign.apply(this, arguments)
   }
-var __importDefault =
-  (this && this.__importDefault) ||
-  function(mod) {
-    return mod && mod.__esModule ? mod : { default: mod }
-  }
 Object.defineProperty(exports, '__esModule', { value: true })
 var azure_maps_control_1 = require('azure-maps-control')
-var react_1 = __importDefault(require('react'))
+var react_1 = require('react')
 var AzureMapContext_1 = require('../../contexts/AzureMapContext')
 var react_azure_maps_1 = require('../../react-azure-maps')
 var react_2 = require('@testing-library/react')
-var AzureMapFeature_1 = __importDefault(require('./AzureMapFeature'))
+var AzureMapFeature_1 = require('./AzureMapFeature')
 var useFeature_1 = require('./useFeature')
-var azure_maps_control_2 = __importDefault(require('azure-maps-control'))
+var azure_maps_control_2 = require('azure-maps-control')
 jest.mock('./useFeature')
 jest.mock('./useCreateAzureMapFeature.ts', function() {
   return {

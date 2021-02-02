@@ -144,16 +144,11 @@ var __generator =
       return { value: op[0] ? op[1] : void 0, done: true }
     }
   }
-var __importDefault =
-  (this && this.__importDefault) ||
-  function(mod) {
-    return mod && mod.__esModule ? mod : { default: mod }
-  }
 Object.defineProperty(exports, '__esModule', { value: true })
-var react_1 = __importDefault(require('react'))
+var react_1 = require('react')
 var react_2 = require('@testing-library/react')
 var AzureMapContext_1 = require('../../contexts/AzureMapContext')
-var AzureMap_1 = __importDefault(require('./AzureMap'))
+var AzureMap_1 = require('./AzureMap')
 var azure_maps_control_1 = require('azure-maps-control')
 var useCreateSprites_1 = require('./useCreateSprites')
 var useCreateMapControls_1 = require('./useCreateMapControls')
